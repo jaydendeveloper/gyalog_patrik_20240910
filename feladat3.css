@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: space-between;
+    align-items: center;
+    background: yellow;
+    gap: 5px;
+}
+
+li {
+    list-style: none;
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+}
