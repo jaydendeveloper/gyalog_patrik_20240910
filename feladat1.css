@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 300px;
+    background: yellow;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+}
+
+.d1{
+    display: none;
+    background-color: green;
+}
+
+.d2{
+    display: none;
+    background-color: yellow;
+}
+
+.d3{
+    background-color: purple;
+}
